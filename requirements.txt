@@ -1,0 +1,26 @@
+# ================================================================
+#  requirements.txt — Tamil Tanglish News Bot
+#  Install: pip install -r requirements.txt
+# ================================================================
+
+# Web framework
+flask>=3.0.0
+
+# AI APIs
+openai>=1.40.0
+google-generativeai>=0.8.0
+
+# News fetching
+requests>=2.31.0
+
+# Image generation
+Pillow>=10.3.0
+
+# Scheduling
+APScheduler>=3.10.4
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# HTTP utilities (already in requests, but explicit)
+urllib3>=2.0.0
